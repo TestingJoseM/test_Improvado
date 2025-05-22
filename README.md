@@ -1,6 +1,9 @@
 # test_Improvado
 Technical Exam for Improvado.io
 
+## Overview
+This Make.com automation streamlines the onboarding process by automatically assigning a workspace email using the new hire’s full name and setting their primary email group based on their role. All data is pulled from a Google Sheet.
+
 Deliverables:
 Share your Google Sheet (with view access).
 https://docs.google.com/spreadsheets/d/1Vuq3_wMFkuloT4o2RzXgQ42dipi5sKMlAZxML5K13B0/edit?usp=sharing
