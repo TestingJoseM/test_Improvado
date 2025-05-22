@@ -25,7 +25,7 @@ How the AI suggestion for the Google Group is implemented or would be prompted.
 Any assumptions made or quick notes on potential improvements if you had more time.
 - Prevent duplicates
 - Send onboarding message to the user on Slack
-<img width="413" alt="Screen Shot 2025-05-22 at 8 51 14" src="https://github.com/user-attachments/assets/a0ddee7e-93e5-4133-9f22-4805ad641f69" />
+
 
 # Why Make.com?
 
@@ -42,6 +42,7 @@ Any assumptions made or quick notes on potential improvements if you had more ti
 * **Google Sheets**
 * **HTTP Module (for OpenAI API call or simulated response)**
 * **Text Aggregator or Compose a String modules**
+
 
 ---
 
@@ -74,6 +75,9 @@ Create a Google Sheet with these columns:
 
 ### Step-By-Step Module Configuration
 #### 1. Google Sheets > Watch New Rows
+<img width="361" alt="Screen Shot 2025-05-22 at 8 49 18" src="https://github.com/user-attachments/assets/67b2acae-3bac-4928-998b-acf63127602e" />
+> The limit needs to be 1 as it needs to work with the data individually.
+
 
 * **Trigger:** Watch New Rows
   
@@ -92,7 +96,7 @@ Create a Google Sheet with these columns:
 ```
 
 * E.g. John Smith → `john.smith@improvado.io`
-<img width="361" alt="Screen Shot 2025-05-22 at 8 49 18" src="https://github.com/user-attachments/assets/67b2acae-3bac-4928-998b-acf63127602e" />
+
 
 ---
 
