@@ -25,7 +25,7 @@ This Make.com automation streamlines the onboarding process by automatically ass
 7. Google Sheets: As it's bad practice to end a workflow on a tool, I included an Update Row module to update the Sheet with the fields "Work Email" and "Primary Group" for each new hire.
    
 
-### Suggested Improvements 
+## Suggested Improvements 
 1. Add Search for existing emails and auto-increment duplicates
    > To prevent email collisions across hires.
 2. Instead of relying on Watch Rows as trigger (there's a 15min delay on Free Plan), I'd use Google Aps Script + Webhook to fire instantly when a new row is added.
