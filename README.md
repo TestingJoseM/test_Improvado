@@ -1,6 +1,9 @@
 # test_Improvado - José Luis Muñoz
 Technical Exam for Improvado.io
 
+# Links:
+https://docs.google.com/spreadsheets/d/1Vuq3_wMFkuloT4o2RzXgQ42dipi5sKMlAZxML5K13B0/edit?usp=sharing 
+
 ## High-Level Flow
 <img width="1214" alt="high-level workflow" src="https://github.com/user-attachments/assets/6fd8ab29-2379-4762-a55d-577ebe0f77b2" />
 
