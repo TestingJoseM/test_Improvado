@@ -31,10 +31,11 @@ This Make.com automation streamlines the onboarding process by automatically ass
 ## Suggested Improvements 
 1. Add Search for existing emails and auto-increment duplicates
    > To prevent email collisions across hires.
-2. Instead of relying on Watch Rows as trigger (there's a 15min delay on Free Plan), I'd use Google Aps Script + Webhook to fire instantly when a new row is added.
+2. Use regex in case there are more than 2 words in the full name.
+3. Instead of relying on Watch Rows as trigger (there's a 15min delay on Free Plan), I'd use Google Aps Script + Webhook to fire instantly when a new row is added.
    > Real-time onboarding and no polling limit.
-3. Use Error Handling to prevent infinite reruns.
-4. Send a personalized welcome Slack message with the onboarding steps.
-5. Add the user to the suggested Google Group using Google Admin SDK.
+4. Use Error Handling to prevent infinite reruns.
+5. Send a personalized welcome Slack message with the onboarding steps.
+6. Add the user to the suggested Google Group using Google Admin SDK.
 
 
