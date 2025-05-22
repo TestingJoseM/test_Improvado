@@ -1,4 +1,4 @@
-# test_Improvado
+# test_Improvado - José Luis Muñoz
 Technical Exam for Improvado.io
 
 ## High-Level Flow
