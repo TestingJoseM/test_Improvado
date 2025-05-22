@@ -1,8 +1,34 @@
 # test_Improvado
 Technical Exam for Improvado.io
 
+## Tools Used
+> Make.com (Tools: Multiple Variables, String Composing)
+> HTTP Request (API Call to Google Gemini)
+> emini-1.5-flash
+
 ## Overview
 This Make.com automation streamlines the onboarding process by automatically assigning a workspace email using the new hire’s full name and setting their primary email group based on their role. All data is pulled from a Google Sheet.
+
+## Modules
+1. Trigger: G. Sheets | Watch New Rows Added
+2. Multiple Variables: Split the Full Name in 2 variables (firstName and lastName)
+3. String Composition: To create the work email with the right format (firstName.lastName@improvado.io). Making sure it's all lower-case for formatting purposes.
+4. HTTP Request: A POST API call is made to Google Gemini to make the LLM (Gemini 1.5 Flash) determine the Google Primary Group based on the role. Making sure it always ends with @improvado.io.
+   > Why Gemini 1.5 Flash? It's low latency (faster responses for real-time apps), made for lightweight tasks and cost-effective.
+   > Parameters: Temperture -> 0.7, maxOutputTokens -> 150
+5. String Composition: The message for the new hire was crafted based on it's Full Name, Role and the work email previously generated.
+6. Sring Composition: The message for the IT was created with all the details of the new hire incluiding the assigned Google Primary Group assigned by the LLM.
+7. Google Sheets: As it's bad practice to end a workflow on a tool, I included an Update Row module to update the Sheet with the fields "Work Email" and "Primary Group" for each new hire.
+
+### Suggested Improvements 
+
+## High-Level Flow
+<img width="1214" alt="high-level workflow" src="https://github.com/user-attachments/assets/6fd8ab29-2379-4762-a55d-577ebe0f77b2" />
+
+
+
+
+## Overview
 
 Deliverables:
 Share your Google Sheet (with view access).
