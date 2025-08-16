@@ -1,5 +1,4 @@
-# test_Improvado - José Luis Muñoz
-Technical Exam for Improvado.io
+# Onboarding Workflow Practice
 
 # Links:
 https://docs.google.com/spreadsheets/d/1Vuq3_wMFkuloT4o2RzXgQ42dipi5sKMlAZxML5K13B0/edit?usp=sharing 
